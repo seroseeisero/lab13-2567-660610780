@@ -1,4 +1,4 @@
-import { IconBrandFacebook, IconBrandTwitter } from "@tabler/icons-react";
+import { IconBrandFacebook, IconBrandFacebookFilled, IconBrandFramer, IconBrandInstagram, IconBrandTwitter } from "@tabler/icons-react";
 
 export default function ContactPage() {
   return (
@@ -11,7 +11,7 @@ export default function ContactPage() {
         TOP10IMDB
       </p>
       <p>
-        <strong>
+        <strong>  
           <IconBrandTwitter /> Twitter :
         </strong>
         @TOP10IMDB

@@ -19,7 +19,14 @@ export interface movieIdPageParams {
     id: string;
   };
 }
+export interface movieNamePageParams {
+  params: {
+    name: string;
+  };
+}
 
 export interface footerProps {
-  // define props list here
+  year:string;
+  name:string;
+  studentId:string;
 }

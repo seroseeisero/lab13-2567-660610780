@@ -7,7 +7,7 @@ import { movieIdPageParams } from "@lib/types";
 export default function MovieIdPage({ params }: movieIdPageParams) {
   const id = Number(params.id);
   const selMovie = movieDB.find((movie) => movie.id === id);
-
+  console.log(id);
   if (!selMovie) {
     return <p className="text-center">Movie is not found 😥</p>;
   }
